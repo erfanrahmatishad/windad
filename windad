@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>گروه حقوقی وینداد</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      direction: rtl;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #1565c0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #0d47a1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0d47a1;
+      color: white;
+      margin-top: 3rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.7rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #0d47a1;
+      color: white;
+      border: none;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1565c0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>گروه حقوقی وینداد</h1>
+    <p>حامی حقوق شما با تخصص، تجربه و اعتماد</p>
+  </header>
+
+  <nav>
+    <a href="#about">درباره ما</a>
+    <a href="#services">خدمات</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+
+  <div class="hero">
+    <h1>وکلای متخصص در خدمت عدالت</h1>
+    <p>ارائه خدمات حقوقی در زمینه‌های کیفری، ملکی، خانواده، قراردادها و تجارت</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>درباره گروه حقوقی وینداد</h2>
+    <p>
+      گروه حقوقی وینداد با تیمی از وکلای با تجربه و متخصص در زمینه‌های مختلف حقوقی، تلاش دارد تا بهترین مشاوره و خدمات حقوقی را به افراد، شرکت‌ها و نهادها ارائه دهد. تخصص ما در ترکیب دانش حقوقی و رویکرد عمل‌گرایانه ما را متمایز می‌کند.
+    </p>
+  </div>
+
+  <div class="section" id="services">
+    <h2>خدمات حقوقی</h2>
+    <ul>
+      <li>مشاوره وکالتی در دعاوی کیفری، حقوقی و خانوادگی</li>
+      <li>تنظیم و بررسی قراردادها</li>
+      <li>امور ثبت شرکت‌ها و برند</li>
+      <li>وکالت در امور ارث و وصیت</li>
+      <li>خدمات داوری و میانجی‌گری</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>تماس با ما</h2>
+    <form>
+      <input type="text" placeholder="نام کامل شما" required />
+      <input type="email" placeholder="ایمیل یا شماره تماس" required />
+      <textarea rows="5" placeholder="پیام یا درخواست مشاوره شما..." required></textarea>
+      <button type="submit">ارسال پیام</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 گروه حقوقی وینداد. تمامی حقوق محفوظ است.</p>
+  </footer>
+
+</body>
+</html>
